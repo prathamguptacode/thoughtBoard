@@ -1,0 +1,10 @@
+GET http://localhost:3100
+
+###
+POST http://localhost:3100/new
+Content-Type: application/json
+
+{
+    "name":"steve",
+    "message":"do what you love"
+}

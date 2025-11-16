@@ -1,0 +1,25 @@
+{
+  "name": "thoughtboard",
+  "version": "1.0.0",
+  "description": "here we see the thoughts of people and what people have to say to me and the world you can also add your thought here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathamguptacode/thoughtBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathamguptacode/thoughtBoard/issues"
+  },
+  "homepage": "https://github.com/prathamguptacode/thoughtBoard#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  }
+}
