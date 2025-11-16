@@ -8,18 +8,33 @@ body {
 
 .parent {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
     gap: 20px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .box {
+    flex-shrink: 0;
     background-color: white;
     border-radius: 10px;
     height: 150px;
     width: 200px;
+    flex-basis: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 900px) {
+  .parent{
+    justify-content: center;
+  }
 }
